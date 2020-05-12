@@ -61,18 +61,22 @@ Follow these steps for completing your project.
 - As you work through setting up redux, you can do it however you'd like. This is the flow that works for me:
 
 ```text
-Set up "empty" reducer and initial state 👉 Set up store and Provider 👉
-Connect components 👉 Add events and event handlers in UI 👉 Build action creators 👉
-write the reducer logic for the actions 👉 Rinse and repeat
+Set up "empty" reducer and initial state 👉 
+Set up store and Provider 👉
+Connect components 👉
+Add events and event handlers in UI 👉 
+Build action creators 👉
+write the reducer logic for the actions 👉 
+Rinse and repeat
 ```
 
 ## _MVP Requirements:_
 
-- Move the given state to the reducer as the initial state for the Redux store.
-- Set up the Redux flow
-- User should be able to add features to their car
-- User should be able to remove added features from their car
-- Total should update as user adds and removes features from their car
+[x] - Move the given state to the reducer as the initial state for the Redux store.
+[] - Set up the Redux flow
+[] - User should be able to add features to their car
+[] - User should be able to remove added features from their car
+[] - Total should update as user adds and removes features from their car
 
 ## Stretch Problems
 
