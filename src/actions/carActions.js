@@ -1,5 +1,23 @@
 export const ADD_FEATURE = 'ADD_FEATURE';
-export const addFeature = () => {
+export const addFeature = feature => {
     console.log('action creator called')
-    return { type: ADD_FEATURE }
+    return {
+         type: ADD_FEATURE, 
+         payload: { 
+             additionalPrice: feature.price, 
+             newFeature: feature, 
+            }, 
+        }
+}
+
+export const REMOVE_FEATURE = 'REMOVE_FEATURE';
+export const removeFeature = featureid => {
+    console.log('action creator called')
+    return {
+        type: REMOVE_FEATURE,
+        payload: {
+            additionalPrice: featureid.price,
+            newFeature: featureid,
+        },
+    }
 }
