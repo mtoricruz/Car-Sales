@@ -11,13 +11,13 @@ export const addFeature = feature => {
 }
 
 export const REMOVE_FEATURE = 'REMOVE_FEATURE';
-export const removeFeature = featureid => {
+export const removeFeature = id => {
     console.log('action creator called')
     return {
         type: REMOVE_FEATURE,
         payload: {
-            additionalPrice: featureid.price,
-            newFeature: featureid,
+            additionalPrice: id.price,
+            selectedfeature: id,
         },
     }
 }
